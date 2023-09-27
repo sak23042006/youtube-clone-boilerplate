@@ -1,0 +1,12 @@
+
+    
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+}
+.content{
+    display: flex;
+}
+
