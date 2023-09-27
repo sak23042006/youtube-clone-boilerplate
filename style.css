@@ -2,41 +2,75 @@
     
 body{
     margin: 0;
+    overflow: hidden;
 }
-.navbar{
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.693);
-    color: white;
+.total{
     display: flex;
-    flex-direction: column;
-    line-height: 3px;
-}
-.logo img,.menu-logo img{
-    width: 30px;
     color: white;
 }
-.menu-logo,.icon,.logo-name,p{
-    display: flex;
-    width: 100px;
-    align-items: center;
-    justify-content: space-between;
+.left{
+    padding:10px 20px;
+    width: 230px;
+    background-color:rgba(0, 0, 0, 0.853);
 }
-.subscription *{
+.text1{
     width: 150px;
 }
-.logo-name{
-    padding: 10px;
+.icon{
+    justify-content: space-between;
+}
+.icon img{
+    width: 30px;
+    filter: invert(1);
+}
+.menu-logo{
+    display:flex;
+}
+.youtube-logo img{
+    width: 80px;
 }
 .icon{
-    padding: 2px 10px;
+    display: flex;
+    align-items: center;
+    line-height: 9px;
 }
-h2{
-    font-size: small;
-}
-.youtube-logo{
-    width: 50px;
-    height:20px;
+.right{
+    width:100%;
+    padding: 10px 10px 0px 50px;
+    background-color: rgba(0, 0, 0, 0.905);
 }
 .search-box{
-    width: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 50px 5px 90px ;
+}
+.search-box img{
+    width:30px;
+    filter: invert(1);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.row1,.row2,.row3{
+    display: flex;
+    font-size: smaller;
+    justify-content: space-evenly;
+}
+.views-ago img{
+    width: 5px;
+}
+.logo-text{
+    display: flex;
+    align-items: center;
+    margin-top:10px ;
+    justify-content: center;
+}
+.logo-text.logo img{
+    align-items: flex-start;
 }
