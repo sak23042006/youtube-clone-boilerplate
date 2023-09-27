@@ -3,7 +3,7 @@
 body{
     margin: 0;
 }
-.navbar{
+.navbar *{
     padding:1% 2% ;
     width:20% ;
 }
@@ -13,12 +13,14 @@ body{
 .nav1{
     
 }
-.menu-logo,.icon,.logo-name{
+.menu-logo,.icon,.logo-name,p{
     display: flex;
     width: 100px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+
 
 
 
