@@ -4,9 +4,21 @@ body{
     margin: 0;
 }
 .navbar{
-    display: flex;
+    padding:1% 2% ;
+    width:20% ;
 }
-.content{
-    display: flex;
+.logo img,.menu-logo img{
+    width: 30px;
 }
+.nav1{
+    
+}
+.menu-logo,.icon,.logo-name{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
 
