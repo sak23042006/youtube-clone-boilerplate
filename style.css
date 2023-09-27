@@ -3,15 +3,17 @@
 body{
     margin: 0;
 }
-.navbar *{
-    padding:1% 2% ;
-    width:20% ;
+.navbar{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.693);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 3px;
 }
 .logo img,.menu-logo img{
     width: 30px;
-}
-.nav1{
-    
+    color: white;
 }
 .menu-logo,.icon,.logo-name,p{
     display: flex;
@@ -19,8 +21,22 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
-
+.subscription *{
+    width: 150px;
+}
+.logo-name{
+    padding: 10px;
+}
+.icon{
+    padding: 2px 10px;
+}
+h2{
+    font-size: small;
+}
+.youtube-logo{
+    width: 50px;
+    height:20px;
+}
+.search-box{
+    width: 30px;
+}
